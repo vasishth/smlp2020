@@ -41,7 +41,7 @@
     <h3>Application, dates, location</h3>
         <ul>
           <li>Dates: 7-11 September 2020.</li>
-          <li>Location: The summer school will be held at the Griebnitzsee campus of the University of Potsdam; this is about 15-20 minutes away from Berlin zoo station by train (this of course assumes that the trains are working they are supposed to!). Lectures will be held in Haus 6. Please use 
+          <li>Location: The summer school will be held at the Griebnitzsee campus of the University of Potsdam; this is about 15-20 minutes away from Berlin zoo station by train (this of course assumes that the trains are working as they are supposed to!). Lectures will be held in Haus 6. Please use 
             <a href="http://www.bvg.de/en/">bvg.de</a> for planning your travel (by train or bus).
 </li>
           <li>Application period: 15 Jan to 1 April 2020.</li>
@@ -56,12 +56,19 @@ The SMLP summer school was started by Shravan Vasishth in 2017, as part of a <a 
 
 
 <div>
+     <h3>Code of conduct</h3>
+
+All participants will be expected to follow the (<a href="http://mc-stan.org/events/stancon2018/stancon-code_of_conduct.html">code of conduct</a>, taken from <a href="http://mc-stan.org/events/stancon2018/">StanCon 2018</a>. In case a participant has any concerns, please contact any of the following instructors: Audrey Bürki, Shravan Vasishth, Bruno Nicenboim, João Veríssimo, or Reinhold Kliegl. 
+
+</div>
+
+<div>
      <h3>Invited lecturers</h3>
         <ul>
-          <li><a href="http://pages.stat.wisc.edu/~bates/">Douglas Bates</a> (co-instructor for Advanced frequentist methods)</li>
-          <li><a href="https://jgabry.github.io/">Jonah Gabry</a> (Lead instructor for Introduction to Bayesian Data Analysis).</li>
+          <li><a href="http://pages.stat.wisc.edu/~bates/">Douglas Bates</a> (co-instructor for Advanced methods in frequentist statistics with Julia)</li>
+          <li><a href="https://jgabry.github.io/">Jonah Gabry</a> (Instructor for Introduction to Bayesian regression modeling with rstanarm).</li>
           <li><a href="http://www.robertgrantstats.co.uk/">Robert Grant</a> (Lectures on Visualization)</li>
-          <li><a href="https://phillipalday.com/">Phillip Alday</a> (Data Analysis using Julia)</li>
+          <li><a href="https://phillipalday.com/">Phillip Alday</a> (Advanced methods in frequentist statistics with Julia)</li>
              </ul>
 </div>
 
@@ -69,36 +76,62 @@ The SMLP summer school was started by Shravan Vasishth in 2017, as part of a <a 
 <div>
      <h3>Invited keynote speakers</h3>
         <ul>
+        <li><a href="https://www.mpi.nl/people/bergmann-christina">Christina Bergmann</a> (Title: The "new" science: transparent, cumulative, and collaborative)</li>
           <li><a href="http://pcl.missouri.edu/jeff/">Jeff Rouder</a> (Modeling individual differences)</li>
           <li><a href="https://www.psychology.northwestern.edu/people/faculty/core/profiles/jennifer-tackett.html">Jennifer Tackett</a> (Thinking Critically and Embracing Uncertainty: Approaches to Theory Specification and Testing in Psychological Science)</li>
         </ul>
 </div>        
 
 <div>
-     <h3>Curriculum</h3>
-        <ul>
-          <li>Introductory Bayesian Data Analysis (maximum 30 participants). Taught by <a href="https://jgabry.github.io/">Jonah Gabry</a> and <a href="https://vasishth.github.io/">Shravan Vasishth</a></li>
-          <li>Advanced Bayesian Data Analysis (maximum 30 participants). Taught by <a href="http://www.ling.uni-potsdam.de/~nicenboim/">Bruno Nicenboim</a></li>
-          <li>Introductory frequentist statistics (maximum 30 participants). Taught by <a href="https://www.uni-potsdam.de/en/ling/staff-list/audreybuerki.html">Audrey Buerki</a> and <a href="https://danielschad.github.io/">Daniel Schad</a></li>
-          <li>Advanced frequentist statistics (maximum 30 participants). Taught by <a href="https://www.uni-potsdam.de/en/cognitive-psychology/staff/kliegl-reinhold.html">Reinhold Kliegl</a> and <a href="http://pages.stat.wisc.edu/~bates/">Douglas Bates</a> </li>
-          <li>New advanced frequentist track course: Using Julia for statistical data analysis (maximum 20 participants). Taught by <a href="https://phillipalday.com/">Phillip Alday</a>.
-             </ul>
+<h3>Curriculum</h3>
 
+We offer foundational/introductory and advanced courses in Bayesian and frequentist statistics. When applying, participants are expected to choose only one stream.
 
+<ul>
+<li><strong>Introduction to Bayesian regression modeling with rstanarm</strong> (maximum 30 participants). Taught by <a href="https://jgabry.github.io/">Jonah Gabry</a>, assistant: <a href="https://vasishth.github.io/">Shravan Vasishth</a></li>
+
+This course assumes familiarity with R and with standard frequentist statistical tools like the generalized linear model, linear mixed model, and ANOVA. Topics to be covered: Introduction to Bayesian data analysis, GLMs for Binary/Binomial Data, GLMs for Continuous Data, GLMs for Count Data, Generalized (Non-)Linear Models with Group-Specific Terms, Bayesian ANOVA Models, Regularized Linear Models, Ordinal Regression Models, Hierarchical Partial Pooling for Repeated Binary Trials.
+
+<br><br>
+<li><strong>Advanced Bayesian data analysis</strong> (maximum 30 participants). Taught by <a href="http://www.ling.uni-potsdam.de/~nicenboim/">Bruno Nicenboim</a> and <a href="https://vasishth.github.io/">Shravan Vasishth</a></li>
+
+This course assumes that participants have some experience in Bayesian modeling already (using JAGS/WinBUGS/Stan, or some other probabilistic programming language) and want to learn more advanced methods. Participants should have worked through or be familiar with the material in the first four chapters of our book draft: <a href="https://vasishth.github.io/Bayes_CogSci/">Introduction to Bayesian Data Analysis for Cognitive Science</a>. 
+We will cover hierarchical modeling, multinomial processing trees, measurement error models, meta-analysis, mixture models, and using Bayes factors and k-fold cross validation.
+<br><br>
+
+<li><strong>Foundational methods in frequentist statistics</strong> (maximum 30 participants). Taught by <a href="https://www.uni-potsdam.de/en/ling/staff-list/audreybuerki.html">Audrey Buerki</a>, <a href="https://danielschad.github.io/">Daniel Schad</a>, and <a href="https://www.jverissimo.net/">João Veríssimo</a></li>
+
+Participants will be expected to have used linear mixed models before, to the level of the textbook by <a href="http://www.bodowinter.com/blog/book-release-statistics-for-linguists">Winter (2019, Statistics for Linguists)</a>, and want to acquire a deeper knowledge of frequentist foundations, and understand the linear mixed model more deeply. Participants are expected to have fit multiple regressions. We will cover model selection, contrast coding, and using simulations to compute power. We will work on (at least some of) the participants' own datasets. <i>This course is not appropriate for researchers new to R or to frequentist statistics</i>.
+
+<br><br>
+
+<li><strong>Advanced methods in frequentist statistics with Julia</strong> (maximum 30 participants). Taught by <a href="https://phillipalday.com/">Phillip Alday</a>,
+<a href="http://pages.stat.wisc.edu/~bates/">Douglas Bates</a>, and  <a href="https://www.uni-potsdam.de/en/cognitive-psychology/staff/kliegl-reinhold.html">Reinhold Kliegl</a> </li>
+</ul>
+
+Applicants must have experience with linear mixed models and be interested in learning how to carry out such analyses with the <a href="https://github.com/JuliaStats/MixedModels.jl">Julia-based MixedModels package</a>) (i.e., the analogue of the R-based lme4 package). Julia MixedModels has some significant advantages. Some of them are: (a) new and more efficient computational implementation, (b) speed — needed for, e.g.,  complex designs and the computation of statistical power, 
+(c) more flexibility for selection of parsimonious mixed models, and 
+(d) more flexibility in taking into account autocorrelations or other dependencies — typical  EEG-, fMRI-based time series (under development).
+
+We <strong>do not expect</strong> profound knowledge of Julia from participants; the necessary subset of knowledge will be taught on the first day of the course. We do expect a readiness to <a href="https://julialang.org/downloads/">install Julia</a> and the confidence that with some basic instruction participants will be able to adapt prepared Julia scripts for their own data or to adapt some of their own lmer()-commands to the equivalent MixedModels()-commands. The course will be taught in a hybrid IDE. There is already the option to execute R chunks from within Julia, meaning one needs Julia primarily for execution of MixedModels command as replacement of lmer(). There is also an option to call Julia MixedModels from within R and process the resulting object like an lme4-object. Thus, much of pre- and postprocessing (e.g., data simulation for complex experimental designs; visualization of partial-effect interactions or shrinkage effects) can and will be carried out in the RStudio / R environment.
+<br><br>
 </div>
 
 
 <div>
 <h3>Fees</h3>
 
-There will be no fees for participating, but since seats are limited, candidates must apply to be accepted.Participants will pay for their own accommodation, we have reserved places in dormitories and hotels.
+The fee of 30 Euros will be used to (among other things) provide coffee and snacks. 
+There will be no other fees for participating, but since seats are limited, candidates must apply to be accepted. Participants will need to find and pay for their own accommodation.
+<br><br>
 </div>
 
 
 <div>
 <h3>Contact details</h3>
 
-For any questions regarding this summer school, please contact <a href="https://vasishth.github.io/">Shravan Vasishth</a>.
+For any questions regarding this summer school that have not been addressed on this home page already, please contact <a href="https://vasishth.github.io/">Shravan Vasishth</a>.
+<br><br>
 </div>
 
 <div>
